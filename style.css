@@ -25,19 +25,13 @@
 #login_box {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	/*margin-right: 270px;*/
-	/*text-align: center;*/
 	background-color: white;
 	border-color: #dbdada;
 	border-style: solid;
 	border-width: 1px;
-	/*float: right;*/
-	/*width: 27%;*/
 }
 
 #signup_box {
-	/*float: right;*/
-	/*width: 27%;*/
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -45,7 +39,6 @@
 	border-color: #dbdada;
 	border-style: solid;
 	border-width: 1px;
-	/*margin-right: 270px;*/
 }
 
 #input_box {
