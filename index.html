@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-	<section>
-			<!-- This is the phone image -->
-			<img id="phoneimg" src="https://cdn-images-1.medium.com/max/292/1*lIMxd2jMf-DnBNBDkRYYzA.png">
-		<div class="bod1">
-			<!-- This is the Instagram image -->
-			<img class="instimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
-			<p class="signuptxt">Sign up to see photos and <br> videos from your friends.</p>
-			<!-- This is the "Login With Facebook" button -->
-			<a href="https://www.facebook.com/">
-			<img class="logwthfbook" src="https://media.dobizlo.com/Common/signin-facebook-large.png"></a>
-			<div class="signuptxt" id="list1">
-				<h3>--------- OR ---------</h3>
-				<!-- These are the input "search type" buttons -->
-				<input type="text" placeholder="Mobile Number or Email"><br>
-				<input type="text" placeholder="Full Name"><br>
-				<input type="text" placeholder="Username"><br>
-				<input type="text" placeholder="Password"><br>
+	<head>
+		<title>Insta | Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+<body id="main_body">
+
+	<!-- This is the phone image -->
+	<img id="phone_img" src="phone-img.png">
+	
+	<section class="main_login">
+		<article id="login_box">
+
+		<!-- This is the Instagram image -->
+		<img id="instagram_img" src="instagram.png">
+
+		<!-- This is the input box -->
+		<ul id="input_box">
+			<div class="input_form">
+			  <label for="usr"></label>
+			  <input placeholder="Phone number, username, or email" type="text" class="form-control" id="usr">
 			</div>
-			<!-- This is the Sign-up button -->
-			<a href="footer.html">
-			<img id="signupimg" src="http://pluspng.com/img-png/sign-up-button-png-sign-up-button-icon-web-internet-website-online-960.png">
-			</a>
-			<p class="signuptxt">By signing up, you agree to our</p>
-			<a href="https://help.instagram.com/155833707900388">
-			<p class="signuptxt"> Terms & Privacy Policy.</p>
-			</a>
-		</div>
-		<div id="bodyfoot">
-			<p>Have an account? <a href="https://www.instagram.com/?hl=en"> Log in</p>
-			</a>
-		</div>
-			<h3 id="getapp">Get the app.</h3>
-			<a href="https://store.google.com/">
+			<div class="input_form">
+			  <label for="pwd"></label>
+			  <input placeholder="Password" type="password" class="form-control" id="pwd">
+			</div>
+		</ul>
+
+		<!-- This is the Login button -->
+		<a id="login_button" class="btn btn-primary" href="#" role="button">Log in</a>
+		<p>––––––––––––––– OR –––––––––––––––</p>
+
+		<!-- This is the "Login With Facebook" button -->
+		<button type="button" class="btn btn-link" role="button">Log in with Facebook</button></br>
+		<button type="button" class="btn btn-link" role="button">Forgot password?</button>
+
+		</article>
+		<article id="signup_box">
+			<p>Don't have an account? <a href="https://www.instagram.com/?hl=en"> Sign up</p></a>
+		</article>
+		<article>
+			<p id="get_app">Get the app</p>
+		</article>
+		<article>
+			<img id="store_img" src="app_store.jpg">
+		</article>
 	</section>
-		<div id="goostore">
-			<img src="https://cdn-images-1.medium.com/max/1600/0*mpi-etcRocUndEI2.png">
-		</div>
 </body>
-<footer class="foot1">
+<footer class="footer">
 	<div>
-		<a href="footer.html">ABOUT US</a> 
+		<a href="footer.html">ABOUT US</a>
 		<a href="footer.html">SUPPORT</a>
 		<a href="footer.html">BLOG </a>	
 		<a href="footer.html">PRESS</a>
@@ -55,7 +60,7 @@
 		<a href="footer.html">TERMS</a>
 		<a href="footer.html">DIRECTORY</a>
 		<a href="footer.html">LANGUAGE</a>
-		<h3>2017 INSTAGRAM</h3>
+		<p> &copy; 2018 INSTAGRAM</p>
 	</div>
 </footer>
 </html>
